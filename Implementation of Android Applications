@@ -1,0 +1,4 @@
+def button_click():
+print("Hello Android")
+print("Simple Android Application Simulation")
+button_click()
