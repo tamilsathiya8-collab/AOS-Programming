@@ -1,0 +1,6 @@
+import threading
+def run():
+print("Real-time style thread running")
+thread = threading.Thread(target=run)
+thread.start()
+thread.join()
