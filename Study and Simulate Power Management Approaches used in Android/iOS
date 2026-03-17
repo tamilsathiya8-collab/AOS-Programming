@@ -1,0 +1,7 @@
+battery = int(input("Enter battery percentage: "))
+if battery > 50:
+print("Normal Mode")
+elif battery > 20:
+print("Optimized Power Saving Mode")
+else:
+print("Ultra Power Saving Mode")
